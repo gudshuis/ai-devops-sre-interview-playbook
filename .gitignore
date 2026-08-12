@@ -1,0 +1,57 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+**/.vscode/
+
+# Local AI-assistant session/config/state — never tracked in this repo.
+.claude/
+.claude.json
+CLAUDE.md
+**/CLAUDE.md
+.codex/
+.codex.json
+CODEX.md
+**/CODEX.md
+
+# Authoring policy: Arun / Gudshuis / Aruhi is the sole author identity.
+# Never track local commit-message templates or notes that add AI/third-party
+# co-author trailers in this repository.
+.gitmessage
+.gitmessage*
+.git/COMMIT_EDITMSG
+
+# Environment / secrets — real values are never committed.
+.env
+.env.*
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*-credentials.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log

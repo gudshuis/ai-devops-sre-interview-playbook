@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#0A0E14"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <path id="req-flow" d="M120 210 L280 210 L440 210 L440 90 L620 90"/>
+    <path id="rag-flow" d="M620 90 L620 150 L800 150"/>
+    <path id="mcp-flow" d="M620 90 L620 210 L800 210"/>
+    <path id="agent-flow" d="M620 90 L620 270 L800 270"/>
+    <path id="guard-flow" d="M620 90 L620 330 L800 330"/>
+    <path id="llm-flow" d="M800 150 L980 150"/>
+  </defs>
+
+  <g stroke="#2A3140" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M120 210 L280 210 L440 210 L440 90 L620 90"/>
+    <path d="M620 90 L620 150 L800 150 L980 150"/>
+    <path d="M620 90 L620 210 L800 210"/>
+    <path d="M620 90 L620 270 L800 270"/>
+    <path d="M620 90 L620 330 L800 330"/>
+    <path d="M620 90 L980 90"/>
+  </g>
+
+  <g font-family="SFMono-Regular, Consolas, monospace" font-size="13" fill="#8B96A8" text-anchor="middle">
+    <g>
+      <rect x="50" y="182" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="120" y="216">User / Dev</text>
+    </g>
+    <g>
+      <rect x="210" y="182" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="280" y="216">Gateway</text>
+    </g>
+    <g>
+      <rect x="370" y="182" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="440" y="216">Policy / Auth</text>
+    </g>
+    <g>
+      <rect x="550" y="62" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="620" y="96">AI Control Plane</text>
+    </g>
+    <g>
+      <rect x="730" y="122" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="800" y="156">RAG</text>
+    </g>
+    <g>
+      <rect x="730" y="182" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="800" y="216">MCP</text>
+    </g>
+    <g>
+      <rect x="730" y="242" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="800" y="276">Agents</text>
+    </g>
+    <g>
+      <rect x="730" y="302" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="800" y="336">Guardrails / Evals</text>
+    </g>
+    <g>
+      <rect x="910" y="122" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="980" y="156">LLM Gateway</text>
+    </g>
+    <g>
+      <rect x="910" y="62" width="140" height="56" rx="12" fill="#121826" stroke="#2A3140"/>
+      <text x="980" y="96">Observability</text>
+    </g>
+  </g>
+
+  <circle r="14" fill="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="0">
+      <mpath href="#req-flow"/>
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#67E8F9">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="0">
+      <mpath href="#req-flow"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="10" fill="url(#glow)" opacity="0.9">
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="0">
+      <mpath href="#rag-flow"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#67E8F9">
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="0">
+      <mpath href="#rag-flow"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="10" fill="url(#glow)" opacity="0.8">
+    <animateMotion dur="6.5s" repeatCount="indefinite" rotate="0">
+      <mpath href="#mcp-flow"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#67E8F9">
+    <animateMotion dur="6.5s" repeatCount="indefinite" rotate="0">
+      <mpath href="#mcp-flow"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="10" fill="url(#glow)" opacity="0.7">
+    <animateMotion dur="7.2s" repeatCount="indefinite" rotate="0">
+      <mpath href="#agent-flow"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#67E8F9">
+    <animateMotion dur="7.2s" repeatCount="indefinite" rotate="0">
+      <mpath href="#agent-flow"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="10" fill="url(#glow)" opacity="0.6">
+    <animateMotion dur="7.8s" repeatCount="indefinite" rotate="0">
+      <mpath href="#guard-flow"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#67E8F9">
+    <animateMotion dur="7.8s" repeatCount="indefinite" rotate="0">
+      <mpath href="#guard-flow"/>
+    </animateMotion>
+  </circle>
+
+  <text x="600" y="28" font-family="SFMono-Regular, Consolas, monospace" font-size="15" fill="#4C566A" text-anchor="middle" letter-spacing="2">ENTERPRISE AI PLATFORM</text>
+</svg>

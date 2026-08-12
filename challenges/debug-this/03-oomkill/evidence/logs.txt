@@ -1,0 +1,13 @@
+09:12:47 INFO  payments-worker starting, JAVA_OPTS=-Xmx3200m
+09:12:51 INFO  connection pool initialized, size=40
+09:13:02 INFO  heap dashboard: used=412Mi / max=3200Mi
+09:20:15 INFO  heap dashboard: used=980Mi / max=3200Mi
+09:28:40 INFO  heap dashboard: used=1510Mi / max=3200Mi
+09:35:02 INFO  heap dashboard: used=1790Mi / max=3200Mi
+09:39:10 INFO  heap dashboard: used=1840Mi / max=3200Mi
+09:40:55 <process terminated — no further log lines emitted>
+
+--- separately, application startup banner (every restart) ---
+09:12:47 INFO  Loading native crypto provider (BouncyCastle FIPS, JNI)
+09:12:48 INFO  Starting 3 background reconciliation threads (default JVM thread stack size)
+09:12:48 INFO  gRPC client pool: 25 channels

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" rx="28" fill="#07111D"/>
+  <rect x="32" y="32" width="1136" height="566" rx="24" fill="url(#g)" stroke="#1E293B"/>
+  <text x="86" y="140" fill="#E2E8F0" font-size="58" font-family="Arial, Helvetica, sans-serif" font-weight="700">Azure</text>
+  <text x="86" y="190" fill="#93C5FD" font-size="24" font-family="Arial, Helvetica, sans-serif">Identity · Networking · Compute · Data · Resilience</text>
+  <rect x="86" y="250" width="260" height="120" rx="18" fill="#0F172A" stroke="#334155"/>
+  <rect x="470" y="250" width="260" height="120" rx="18" fill="#0F172A" stroke="#334155"/>
+  <rect x="854" y="250" width="260" height="120" rx="18" fill="#0F172A" stroke="#334155"/>
+  <text x="116" y="302" fill="#38BDF8" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700">Foundation</text>
+  <text x="116" y="336" fill="#CBD5E1" font-size="18" font-family="Arial, Helvetica, sans-serif">Core services and platform boundaries</text>
+  <text x="500" y="302" fill="#4ADE80" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700">Operate</text>
+  <text x="500" y="336" fill="#CBD5E1" font-size="18" font-family="Arial, Helvetica, sans-serif">Troubleshoot, observe, and recover</text>
+  <text x="884" y="302" fill="#F59E0B" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="700">Scale</text>
+  <text x="884" y="336" fill="#CBD5E1" font-size="18" font-family="Arial, Helvetica, sans-serif">Governance, regions, platform strategy</text>
+  <text x="86" y="468" fill="#94A3B8" font-size="18" font-family="Arial, Helvetica, sans-serif">Canonical pack: README · fundamentals · questions · troubleshooting · senior-scenarios · challenges · cheatsheet · architecture</text>
+  <defs>
+    <linearGradient id="g" x1="32" y1="32" x2="1168" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1730"/>
+      <stop offset="1" stop-color="#10243A"/>
+    </linearGradient>
+  </defs>
+</svg>

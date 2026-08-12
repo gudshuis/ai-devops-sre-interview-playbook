@@ -1,0 +1,29 @@
+Name:         payments-worker-7c9d8f-abc12
+Namespace:    payments
+Status:       Running
+Containers:
+  payments-worker:
+    Container ID:  containerd://a1b2c3...
+    Image:         example.internal/payments-worker:2.14.0
+    State:         Running
+      Started:      Thu, 14 Aug 2026 09:41:02 +0000
+    Last State:    Terminated
+      Reason:       OOMKilled
+      Exit Code:    137
+      Started:      Thu, 14 Aug 2026 09:12:47 +0000
+      Finished:     Thu, 14 Aug 2026 09:40:55 +0000
+    Ready:          True
+    Restart Count:  14
+    Limits:
+      cpu:     2
+      memory:  3500Mi
+    Requests:
+      cpu:     1
+      memory:  3500Mi
+Events:
+  Type     Reason     Age    From     Message
+  ----     ------     ----   ----     -------
+  Warning  BackOff    3m12s  kubelet  Back-off restarting failed container
+  Normal   Pulled     28m    kubelet  Container image already present on machine
+  Normal   Created    28m    kubelet  Created container payments-worker
+  Normal   Started    28m    kubelet  Started container payments-worker

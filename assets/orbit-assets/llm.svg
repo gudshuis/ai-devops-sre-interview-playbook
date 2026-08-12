@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LLM">
+  <rect width="128" height="128" rx="30" fill="url(#llm-bg)"/>
+  <path d="M30 34H41V73.5H62V84H30V34Z" fill="white"/>
+  <path d="M66 34H77V73.5H98V84H66V34Z" fill="white" fill-opacity="0.92"/>
+  <path d="M28 96C39 90 48.5 90 59.5 96C70.5 102 80 102 100 91" stroke="#A7F3D0" stroke-width="6" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="llm-bg" x1="13" y1="15" x2="117" y2="115" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.48" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+</svg>
